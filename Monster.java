@@ -29,7 +29,7 @@ public class Monster {
         return arms;
     }
     public int getEyes() {
-        return eyes;=
+        return eyes;
     }
     public int getButtons() {
         return buttons;
