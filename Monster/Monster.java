@@ -1,3 +1,4 @@
+package Monster;
 public class Monster {
     private int arms, eyes, buttons;
     private String name;
