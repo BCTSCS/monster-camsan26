@@ -12,7 +12,9 @@ public class Magpie {
        response = "Tell me more about your family.";
      } else if (statement.contains("crochet") || statement.contains("instrument") || statement.contains("bake")) {
         response = "Those are really cool hobbies!";
-     } else if (statement.contains("dog") || statement.contains("cat") || statement.contains("bird") || statement.contains("fish")) {
+     } else if (statement.contains("Mr.") || statement.contains("Ms.") || statement.contains("Mrs.")) {
+        response = "Tell me more about your teachers!";
+     }else if (statement.contains("dog") || statement.contains("cat") || statement.contains("bird") || statement.contains("fish")) {
         response = "Tell me more about your pet. That's so cool!";
      } else {
        response = getRandomResponse();
@@ -37,6 +39,9 @@ public class Magpie {
         response = "Mindblowing!!";
      } else if (whichResponse == 6) {
         response = "You go girl!";
+     }
+     else if (whichResponse == 7) {
+        response = "Good job";
      }
      return response;
     }
